@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomeSaver</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-home"></i>
+					</span>
+				</a>
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#locations">Locations</a>
+				<a class="nav-item" href="#contact">Contact</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Us -->
+		<section id="about" class="section section-1">
+                        <div class="has-text-centered">
+                        	<h3 class="title is-3">About Us</h3>
+                        </div>
+			<div class="container">
+                                <p class="intro">
+                                        Want to sell your home? Let us show you the way. We help homeowners achieve their life goals with personalized services, including free home analyses, cash offers, and quick closing. Try our simple and transparent process:
+					<ol class="intro">
+  						<li>Call us <a href="tel:+16502069588">(650) 206-9588</a></li>
+  						<li>Discuss your situation and do a video tour</li>
+  						<li>Receive a cash offer for your house</li>
+						<li>Escrow phase begins upon offer acceptance</li>
+						<li>Money is sent to you by the escrow company upon after contingincies satisfied</li>
+					</ol>
+                                </p>
+                        </div>
+			<div class="row">
+				<div class="column">
+    					<img src="assets/img/neighborhood.jpg" style="width:100%">
+  				</div>
+  				<div class="column">
+    					<img src="assets/img/profile.jpg" style="width:100%">
+  				</div>
+  				<div class="column">
+    					<img src="assets/img/house-yellow.jpg" style="width:100%">
+  				</div>
+			</div>
+		</section>
+		
+		<!-- Locations -->
+		<section id="locations" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Locations</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/home-condition.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										In Western Washington, we serve Seattle, Tacoma, Bellevue, Renton, SeaTac, Everett, Lynwood, Bothell, Kenmore, Issaquah, Kent, Federal Way, Auburn, Fife, Pacific, Olympia, Tumwater, Lacey, Lakewood, Parkland.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/house-front.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										On the East Coast, we operate in New York (Mount Vernon, White Plains, Westchester, Port Chester, Bronxville), New Jersey (Jersey City, Hoboken, Fort Lee, Journal Square, Newark), Virginia (Fairfax, DC, Norfolk, Richmond), Connecitcut (Stamford, Greenwich, Norwalk, New Haven), and Tennessee (Knoxville, Johnson City).
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Call or text 24 hours a day / 7 days a week</h3>
+					<h3 class="title is-3"><a target="_blank" href="tel:+16502069588">(650) 206-9588</a></h3>
+				</div>
+			</div>
+                        <div class="row">
+                                <div class="column">
+                                        <img src="assets/img/home-agreement.jpg" style="width:100%">
+                                </div>
+                                <div class="column">
+                                        <img src="assets/img/home-inspection.jpg" style="width:100%">
+                                </div>
+                        </div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			Copyright &#169; 2023 by Home Saver. All Rights Reserved.
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
